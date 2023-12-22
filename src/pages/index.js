@@ -7,23 +7,23 @@ export default function Home() {
   return (
     <main className="">
       <div className="bg-[#f3332f]">
-        <Image src={"/logo.png"} width={150} alt="logo" height={150} />
+        <Image src={"/logo.png"} width={60} alt="logo" height={60} />
 
-        <div className="sm:flex py-[40px] mx-[100px] ">
-          <div className="w-full">
-            <Image src={"/logo.png"} alt="logo" width={500} height={500} />
+        <div className="sm:flex py-[40px] ">
+          <div className="">
+            <Image src={"/logo.png"} alt="logo" width={700} height={700} />
           </div>
-          <div className="sm:mt-[100px] mx-[60px]text-white sm:mx-[0px]">
-            <h1 className=" text-4xl font-bold  sm:leading-loose">THE SANTA COIN OF THE PEOPLE</h1>
+          <div className="sm:mt-[100px]  mx-[60px] sm:mx-[0px]  text-white">
+            <h1 className=" pb-[30px] text-4xl font-bold sm:leading-loose">THE SANTA COIN OF THE PEOPLE</h1>
             {/* eslint-disable react/no-unescaped-entities */}
-            <p>
+            <p className=" sm:text-[20px]">
               Missed out on $BONK? Here's your chance with generational wealth <br />{" "}
               opportunity with twice the better on $BONK2.0 
             </p>
             {/* eslint-disable react/no-unescaped-entities */}
-            <p className="text-[10px] sm:text-[20px]">Gh9AcyeZezm5DBvVpG9eSwN1pArtFGNU9q7RzLKkkQ8n</p>
+            <p className="text-[10px] pt-[10px]  sm:text-[12px]">Gh9AcyeZezm5DBvVpG9eSwN1pArtFGNU9q7RzLKkkQ8n</p>
 
-            <div className="flex text-white  space-x-4 pt-3">
+            <div className="flex text-white  gap-4 pt-3">
               <button className="bg-white   text-sm sm:text-lg text-[#f28b8c]  px-2 py-2  sm:px-3 sm:py-3 hover:bg-[#524c47] hover:text-white">
                 Buy here
               </button>
@@ -42,7 +42,7 @@ export default function Home() {
       </div>
 
       {/* second secction */}
-      <div className="bg-white text-center text-[#524c47] py-[100px]">
+      <div className="bg-white  text-center text-[#524c47] py-[100px]">
         <div>
           <button className="bg-[#f3332f] px-5 py-5 text-white">
             OUR MISSION
