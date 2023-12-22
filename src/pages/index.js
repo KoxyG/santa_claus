@@ -14,14 +14,14 @@ export default function Home() {
             <Image src={"/logo.png"} alt="logo" width={700} height={700} />
           </div>
           <div className="sm:mt-[100px]  mx-[60px] sm:mx-[0px]  text-white">
-            <h1 className=" pb-[30px] text-4xl font-bold sm:leading-loose">THE SANTA COIN OF THE PEOPLE</h1>
+            <h1 className="text-white pb-[30px] text-4xl font-bold sm:leading-loose">THE SANTA COIN OF THE PEOPLE</h1>
             {/* eslint-disable react/no-unescaped-entities */}
-            <p className=" sm:text-[20px]">
+            <p className="text-white sm:text-[20px]">
               Missed out on $BONK? Here's your chance with generational wealth <br />{" "}
               opportunity with twice the better on $BONK2.0 
             </p>
             {/* eslint-disable react/no-unescaped-entities */}
-            <p className="text-[10px] pt-[10px]  sm:text-[12px]">Gh9AcyeZezm5DBvVpG9eSwN1pArtFGNU9q7RzLKkkQ8n</p>
+            <p className="text-white text-[10px] pt-[10px]  sm:text-[12px]">Gh9AcyeZezm5DBvVpG9eSwN1pArtFGNU9q7RzLKkkQ8n</p>
 
             <div className="flex text-white  gap-4 pt-3">
               <button className="bg-white   text-sm sm:text-lg text-[#f28b8c]  px-2 py-2  sm:px-3 sm:py-3 hover:bg-[#524c47] hover:text-white">
