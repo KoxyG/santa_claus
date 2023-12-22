@@ -1,7 +1,7 @@
 import Image from "next/image";
-import { Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const poppins = Poppins({weight: ['200', '600'],  subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -9,19 +9,19 @@ export default function Home() {
       <div className="bg-[#f3332f]">
         <Image src={"/logo.png"} width={80} alt="logo" height={80} />
 
-        <div className="sm:flex py-[40px] ">
-          <div className="s">
+        <div className="sm:flex py-[40px] mx-[100px] ">
+          <div className="">
             <Image src={"/logo.png"} alt="logo" width={500} height={500} />
           </div>
-          <div className="sm:mt-[100px] mx-[60px] sm:mx-[0px]">
-            <h1>THE DOG COIN OF THE PEOPLE</h1>
+          <div className="sm:mt-[100px] mx-[60px]text-white sm:mx-[0px]">
+            <h1 className=" text-4xl font-bold  sm:leading-loose">THE SANTA COIN OF THE PEOPLE</h1>
             {/* eslint-disable react/no-unescaped-entities */}
             <p>
-              Missed out on $BONK? Here's your chance with generational wealth
+              Missed out on $BONK? Here's your chance with generational wealth <br />{" "}
               opportunity with twice the better on $BONK2.0 
             </p>
             {/* eslint-disable react/no-unescaped-entities */}
-            <p>Gh9AcyeZezm5DBvVpG9eSwN1pArtFGNU9q7RzLKkkQ8n</p>
+            <p className="text-[10px] sm:text-[20px]">Gh9AcyeZezm5DBvVpG9eSwN1pArtFGNU9q7RzLKkkQ8n</p>
 
             <div className="flex text-white  space-x-4 pt-3">
               <button className="bg-white text-[#f28b8c] px-3 py-3 hover:bg-[#524c47] hover:text-white">
