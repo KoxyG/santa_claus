@@ -7,18 +7,20 @@ export default function Home() {
   return (
     <main className="">
       <div className="bg-[#f3332f]">
-        <Image src={"/logo.png"} width={80} height={80} />
+        <Image src={"/logo.png"} width={80} alt="logo" height={80} />
 
         <div className="sm:flex py-[40px] ">
           <div className="s">
-            <Image src={"/logo.png"} width={500} height={500} />
+            <Image src={"/logo.png"} alt="logo" width={500} height={500} />
           </div>
           <div className="sm:mt-[100px] mx-[60px] sm:mx-[0px]">
             <h1>THE DOG COIN OF THE PEOPLE</h1>
+            {/* eslint-disable react/no-unescaped-entities */}
             <p>
               Missed out on $BONK? Here's your chance with generational wealth
-              opportunity with twice the better on $BONK2.0 !
+              opportunity with twice the better on $BONK2.0 
             </p>
+            {/* eslint-disable react/no-unescaped-entities */}
             <p>Gh9AcyeZezm5DBvVpG9eSwN1pArtFGNU9q7RzLKkkQ8n</p>
 
             <div className="flex text-white  space-x-4 pt-3">
