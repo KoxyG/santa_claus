@@ -7,10 +7,10 @@ export default function Home() {
   return (
     <main className="">
       <div className="bg-[#f3332f]">
-        <Image src={"/logo.png"} width={80} alt="logo" height={80} />
+        <Image src={"/logo.png"} width={150} alt="logo" height={150} />
 
         <div className="sm:flex py-[40px] mx-[100px] ">
-          <div className="">
+          <div className="w-full">
             <Image src={"/logo.png"} alt="logo" width={500} height={500} />
           </div>
           <div className="sm:mt-[100px] mx-[60px]text-white sm:mx-[0px]">
@@ -24,16 +24,16 @@ export default function Home() {
             <p className="text-[10px] sm:text-[20px]">Gh9AcyeZezm5DBvVpG9eSwN1pArtFGNU9q7RzLKkkQ8n</p>
 
             <div className="flex text-white  space-x-4 pt-3">
-              <button className="bg-white text-[#f28b8c] px-3 py-3 hover:bg-[#524c47] hover:text-white">
+              <button className="bg-white   text-sm sm:text-lg text-[#f28b8c]  px-2 py-2  sm:px-3 sm:py-3 hover:bg-[#524c47] hover:text-white">
                 Buy here
               </button>
-              <button className="bg-white text-[#f28b8c] px-4 py-3 hover:bg-[#524c47] hover:text-white">
+              <button className="bg-white  text-sm sm:text-lg text-[#f28b8c] px-3 py-2  sm:px-4 sm:py-3 hover:bg-[#524c47] hover:text-white">
                 Chart
               </button>
-              <button className="bg-white text-[#f28b8c] px-3 py-3 hover:bg-[#524c47] hover:text-white">
+              <button className="bg-white  text-sm sm:text-lg text-[#f28b8c] px-2 py-2 sm:px-3 sm:py-3 hover:bg-[#524c47] hover:text-white">
                 Telegram
               </button>
-              <button className="bg-white text-[#f28b8c] px-9 py-3 hover:bg-[#524c47] hover:text-white">
+              <button className="bg-white  text-sm sm:text-lg text-[#f28b8c] px-6 py-2  sm:px-9 sm:py-3 hover:bg-[#524c47] hover:text-white">
                 X
               </button>
             </div>
@@ -48,7 +48,7 @@ export default function Home() {
             OUR MISSION
           </button>
 
-          <p className="text-center pt-5">
+          <p className="mx-[60px] text-center pt-5">
             Bonk 2.0 is dedicated to becoming the premier Web3 community on the
             Solana blockchain. Our mission is to foster inclusivity, innovation,
             and decentralized collaboration. We aim to create a vibrant space
