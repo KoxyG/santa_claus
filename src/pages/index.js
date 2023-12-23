@@ -27,7 +27,7 @@ export default function Home() {
                 SANTA IS IN TOWN 🎉
               </motion.h1>
               <p className="text-white text-[12px] sm:text-[20px]">
-                $Santa Coin Contract: 0xaDBA987955Eac146f1983062100046be46e632fA
+                $Santa  Coin Contract: 0xaDBA987955Eac146f1983062100046be46e632fA
               </p>
 
               <div className="flex justify-center text-white pb-[50px]  gap-4 py-3">
@@ -77,7 +77,7 @@ export default function Home() {
             <br />
             created to for fun to celebrate the birth of Jesus Christ and also{" "}
             <br />
-            to Celebrate the father of Christmas Santa.
+            to Celebrate the father of Christmas Santa 🎉.
           </p>
         </div>
       </div>
