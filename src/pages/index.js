@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Poppins } from "next/font/google";
 import Link from "next/link";
+import { motion } from 'framer-motion';
 
 const poppins = Poppins({ weight: ["200", "600"], subsets: ["latin"] });
 
@@ -22,9 +23,9 @@ export default function Home() {
         <div className="sm:flex py-[100px] ">
           
           <div className="sm:mt-[100px]   mx-[60px] text-center sm:mx-[0px]  text-white">
-            <h1 className="text-white pt-[50px] pb-[30px] text-5xl sm:text-6xl font-extrabold sm:leading-loose">
+            <motion.h1  className="text-white pt-[50px] pb-[30px] text-5xl sm:text-6xl font-extrabold sm:leading-loose">
               SANTA IS IN TOWN
-            </h1>
+            </motion.h1>
             <p className="text-white text-[12px] sm:text-[20px]">
             $Santa Coin Contract: 0xaDBA987955Eac146f1983062100046be46e632fA
             </p>
@@ -32,15 +33,19 @@ export default function Home() {
             <div className="flex justify-center text-white pb-[50px]  gap-4 py-3">
               
               <Link  href="https://t.me/santaclausonavax" >
-              <button className="bg-white  text-sm sm:text-lg text-[#f28b8c] px-3 py-3 hover:bg-[#524c47] hover:text-white">
+              <motion.button whileHover={{ scale: 1.2 }}
+  onHoverStart={e => {}}
+  onHoverEnd={e => {}} className="bg-white  text-sm sm:text-lg text-[#f28b8c] px-3 py-3 hover:bg-[#524c47] hover:text-white">
                 Telegram
-              </button>
+              </motion.button>
               </Link>
 
               <Link href="https://x.com/santaclaus_avax?t=a1Ni1QvGshnnSSHI0wBf8w&s=08">
-              <button className="bg-white  text-sm sm:text-lg text-[#f28b8c] px-9 py-3 hover:bg-[#524c47] hover:text-white">
+              <motion.button whileHover={{ scale: 1.2 }}
+  onHoverStart={e => {}}
+  onHoverEnd={e => {}} className="bg-white  text-sm sm:text-lg text-[#f28b8c] px-9 py-3 hover:bg-[#524c47] hover:text-white">
                 X
-              </button>
+              </motion.button>
               </Link>
             </div>
           </div>
@@ -50,7 +55,7 @@ export default function Home() {
       
       </div>
 
-    
+      
 
       <div className="bg-white">
         
