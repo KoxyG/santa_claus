@@ -26,7 +26,7 @@ export default function Home() {
               <motion.h1 className="text-white pt-[50px] pb-[30px] text-5xl sm:text-6xl font-extrabold sm:leading-loose">
                 SANTA IS IN TOWN 🎉
               </motion.h1>
-              <p className="text-white text-[8px] sm:text-[20px]">
+              <p className="text-white text-[11px] sm:text-[20px]">
                 $Santa  Coin Contract: 0xaDBA987955Eac146f1983062100046be46e632fA
               </p>
 
@@ -37,7 +37,7 @@ export default function Home() {
                     whileHover={{ scale: 1.2 }}
                     onHoverStart={(e) => {}}
                     onHoverEnd={(e) => {}}
-                    className="bg-white  text-xs sm:text-lg text-[#f28b8c] px-3 py-3 sm:px-9 sm:py-3 hover:bg-[#524c47] hover:text-white"
+                    className="bg-white  text-xm sm:text-lg text-[#f28b8c] px-3 py-2.5 sm:px-9 sm:py-3 hover:bg-[#524c47] hover:text-white"
                   >
                     Buy
                   </motion.button>
@@ -60,7 +60,7 @@ export default function Home() {
                     whileHover={{ scale: 1.2 }}
                     onHoverStart={(e) => {}}
                     onHoverEnd={(e) => {}}
-                    className="bg-white  text-xm sm:text-lg text-[#f28b8c] px-3 py-3 sm:px-9 sm:py-3 hover:bg-[#524c47] hover:text-white"
+                    className="bg-white  text-xm sm:text-lg text-[#f28b8c] px-3 py-2.5 sm:px-9 sm:py-3 hover:bg-[#524c47] hover:text-white"
                   >
                     X
                   </motion.button>
@@ -71,7 +71,7 @@ export default function Home() {
                     whileHover={{ scale: 1.2 }}
                     onHoverStart={(e) => {}}
                     onHoverEnd={(e) => {}}
-                    className="bg-white  text-xm sm:text-lg text-[#f28b8c] px-3 py-3 sm:px-9 sm:py-3 hover:bg-[#524c47] hover:text-white"
+                    className="bg-white  text-xm sm:text-lg text-[#f28b8c] px-3 py-2.5 sm:px-9 sm:py-3 hover:bg-[#524c47] hover:text-white"
                   >
                     Chart
                   </motion.button>
