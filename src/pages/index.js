@@ -22,10 +22,10 @@ export default function Home() {
         <div className="sm:flex py-[100px] ">
           
           <div className="sm:mt-[100px]   mx-[60px] text-center sm:mx-[0px]  text-white">
-            <h1 className="text-white pt-[50px] pb-[30px] text-4xl sm:text-6xl font-bold sm:leading-loose">
-              SANTA COIN FOR THE PEOPLE
+            <h1 className="text-white pt-[50px] pb-[30px] text-5xl sm:text-6xl font-extrabold sm:leading-loose">
+              SANTA IS IN TOWN
             </h1>
-            <p className="text-white text-[10px] sm:text-[20px]">
+            <p className="text-white text-[12px] sm:text-[20px]">
             $Santa Coin Contract: 0xaDBA987955Eac146f1983062100046be46e632fA
             </p>
 
@@ -55,19 +55,19 @@ export default function Home() {
       <div className="bg-white">
         
         <div className="grid justify-center align-items-center pb-[100px]">
-          <div className="">
+          <div className="grid place-items-center ">
             <Image src={"/logo.png"} alt="logo" width={700} height={700} />
           </div>
          
             
           
             
-            <p className="mx-[60px] text-[#f3332f] text-center pt-5">
-            It’s finally the time of the year where we gift our loved ones to
-            celebrate the birth of Jesus Christ. This practice was invented by
-            Santa Claus who is also known as the father of Christmas. Santa
-            Claus on avax is a meme token without any financial return/reward
-            created to for fun to celebrate the birth of Jesus Christ and also
+            <p className="mx-[60px] text-[#f3332f] text-[15px] text-bold leading-loose sm:text-[20px] text-center pt-5">
+            It’s finally the time of the year where we gift our loved ones to <br/>
+            celebrate the birth of Jesus Christ. This practice was invented by <br/>
+            Santa Claus who is also known as the father of Christmas. Santa <br/>
+            Claus on avax is a meme token without any financial return/reward <br/>
+            created to for fun to celebrate the birth of Jesus Christ and also <br/>
             to Celebrate the father of Christmas Santa.
           </p>
             
@@ -79,8 +79,19 @@ export default function Home() {
       <div className="bg-[#f3332f]  text-center text-[#524c47] py-[100px]">
         <div>
           
+          <button className="py-4 px-4 text-[#524c47] font-bold bg-white text-[30px]">Tokenomics</button>
 
-          
+          <div className="grid gap-[70px] pt-[60px]">
+          <div className="grid text-white">
+            <h4 className="text-[25px] font-medium">Token supply</h4>
+            <p>100,000,000</p>
+          </div>
+
+          <div className="grid text-white">
+            <h4 className="text-[25px] font-medium">Tax</h4>
+            <p>5/5</p>
+          </div>
+          </div>
         </div>
       </div>
 
