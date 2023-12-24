@@ -25,7 +25,7 @@ export default function Home() {
               </motion.h1>
               <p className="text-white text-[11px] sm:text-[20px]">
                 $Christmas Coin Contract:
-                0x757B34A0f3d636C676126850AEbEc3b9f4499014
+                0x50dc0aE51eC82178279f8bB6789EcA7D16e2aAe6
               </p>
 
               <div className="flex justify-center text-white pb-[50px]  gap-4 py-3">
