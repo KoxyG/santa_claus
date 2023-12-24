@@ -6,9 +6,6 @@ import { motion } from "framer-motion";
 const poppins = Poppins({ weight: ["200", "600"], subsets: ["latin"] });
 
 export default function Home() {
-
-  
-
   return (
     <main className="">
       <div className="relative  flex h-full w-full items-center justify-center">
@@ -24,15 +21,15 @@ export default function Home() {
           <div className="sm:flex py-[100px] ">
             <div className="sm:mt-[100px]   mx-[60px] text-center sm:mx-[0px]  text-white">
               <motion.h1 className="text-white pt-[50px] pb-[30px] text-5xl sm:text-6xl font-extrabold sm:leading-loose">
-                SANTA IS IN TOWN 🎉
+                CHRISTMAS IS HERE 🎉
               </motion.h1>
               <p className="text-white text-[11px] sm:text-[20px]">
-                $Santa  Coin Contract: 0xaDBA987955Eac146f1983062100046be46e632fA
+                $Christmas Coin Contract:
+                0x757B34A0f3d636C676126850AEbEc3b9f4499014
               </p>
 
               <div className="flex justify-center text-white pb-[50px]  gap-4 py-3">
-
-              <Link href="https://x.com/santaclaus_avax?t=a1Ni1QvGshnnSSHI0wBf8w&s=08">
+                <Link href="https://traderjoexyz.com/avalanche/trade">
                   <motion.button
                     whileHover={{ scale: 1.2 }}
                     onHoverStart={(e) => {}}
@@ -43,8 +40,7 @@ export default function Home() {
                   </motion.button>
                 </Link>
 
-
-                <Link href="https://t.me/santaclausonavax">
+                <Link href="https://t.me/christmasonavax">
                   <motion.button
                     whileHover={{ scale: 1.2 }}
                     onHoverStart={(e) => {}}
@@ -55,7 +51,7 @@ export default function Home() {
                   </motion.button>
                 </Link>
 
-                <Link href="https://x.com/santaclaus_avax?t=a1Ni1QvGshnnSSHI0wBf8w&s=08">
+                <Link href="https://twitter.com/xmasonavax">
                   <motion.button
                     whileHover={{ scale: 1.2 }}
                     onHoverStart={(e) => {}}
@@ -85,23 +81,16 @@ export default function Home() {
       <div className="bg-white">
         <div className="grid justify-center align-items-center pb-[100px]">
           <div className="grid place-items-center ">
-            <Image src={"/logo.png"} alt="logo" width={700} height={700} />
+            <Image src={"/christmas.png"} alt="logo" width={700} height={700} />
           </div>
 
-          
-
           <p className="mx-[60px] text-[#f3332f] text-[15px] text-bold leading-loose sm:text-[20px] text-center pt-5">
-            It’s finally the time of the year where we gift our loved ones to{" "}
-            <br />
-            celebrate the birth of Jesus Christ. This practice was invented by{" "}
-            <br />
-            Santa Claus who is also known as the father of Christmas. Santa{" "}
-            <br />
-            Claus on avax is a meme token without any financial return/reward{" "}
-            <br />
-            created to for fun to celebrate the birth of Jesus Christ and also{" "}
-            <br />
-            to Celebrate the father of Christmas Santa 🎉.
+            It’s finally the time of the year where we gift our loved ones to <br />
+            celebrate the birth of Jesus Christ. This practice was invented by <br />
+            Santa Claus who is also known as the father of Christmas. $Christmas <br />
+            on avax is a meme token without any financial return/reward created <br />
+            for fun to celebrate the birth of Jesus Christ and also to Celebrate <br />
+            the father of Christmas Santa.
           </p>
         </div>
       </div>
